@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto";
+    height: 100vh;
+}
+
+#hum{
+    display: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.vocab img{
+    width: 100%;
+}
+
+.word{
+    color: black;
+}
+.phonetic{
+    color:red;
+}
+.explain{
+    margin-bottom: 0px;
+}
+.collapsible{
+    background-color: #abdef7;
+    cursor: pointer;
+}
+
+.show-hide{
+    display:none;
+}
+
